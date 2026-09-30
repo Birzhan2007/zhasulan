@@ -1,0 +1,15 @@
+name: Hello World
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello from Zhasulan
+        run: echo "Hello from Zhasulan"
+
+      - name: Show operating system
+        run: uname -a
